@@ -523,6 +523,13 @@ header {
 
 /* ======== Media Queries ======== */
 
+@media screen and (max-width: 800px) {
+    header nav{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 1200px) {
 
     /* ======== solucao ======== */
